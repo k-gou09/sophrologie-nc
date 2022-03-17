@@ -66,7 +66,7 @@ img.tof {
 
 h2{
     max-width: 1000px;
-    color:yellow;
+    color:cyan;
     text-shadow: 2px 2px 4px black;
     text-align: center;
     margin-left: auto;
@@ -81,12 +81,13 @@ h3{
 }
 
 p{
+    color: white;
     display: inline-block;
     font-size: 20px;
     border: 3px black solid;
     border-radius: 10px;
     box-shadow: 8px 8px 12px black;
-    background: lightgrey;
+    background: #4066ce;
     margin:auto;
     padding:10px 10px 10px 10px;
     margin-left: 100px;
