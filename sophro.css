@@ -1,0 +1,477 @@
+/* Appliquer le background sur le body */
+body {
+    background: url('img/sea777.png') no-repeat center;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 98%;
+}
+
+/* Style pour la div contenant l'image */
+.image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.image-container img {
+    margin-top: 10px;
+    padding-top: 0;
+    width: 60%;
+    height: 250px;
+}
+
+/* Style pour le menu */
+header.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+header.menu nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header.menu a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header.menu a:hover {
+    color: #7e57b4;
+}
+
+/* Style pour le contenu */
+.content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* Adjust based on your header height */
+}
+
+/* Initial style for the title */
+.title {
+    color: #333;
+    font-size: 2em;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.title1 {
+    color: #333;
+    font-size: 2em;
+    opacity: 0;
+    transform: translateX(+100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+/* Style applied when the title is animated in */
+.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Style pour les paragraphes */
+.para {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligner les éléments en haut */
+    padding: 20px 50px;
+    gap: 20px; /* Espacement entre les colonnes */
+}
+
+.pleft, .pright {
+    width: 48%; /* Pour que les colonnes occupent l'espace équitablement */
+    text-align: justify;
+}
+
+.pleft {
+    padding-left: 150px;
+}
+
+.pright {
+    padding-right: 150px;
+    padding-left: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+h3{
+    color: black;
+    font-size: 19px;
+}
+
+
+
+.imagbot {
+    width: 100%;
+    text-align: center;
+}
+
+.imagbot img {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+}
+
+.pcentre {
+    padding: 20px 50px;
+    margin: auto;
+    width: 80%;
+}
+
+.pcentre p {
+    width: 600px;
+    margin: auto;
+}
+
+.saut {
+    height: 50px;
+    width: 100%;
+}
+
+.espace {
+    height: 5px;
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #333;
+    margin: auto;
+}
+
+.full{
+    width: 102%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.full h1 {
+    color: #333;
+}
+
+.pleft1, .pright1 {
+    width: 48%; /* Pour que les colonnes occupent l'espace équitablement */
+    text-align: justify;
+}
+
+.pleft1 {
+    padding-left: 100px;
+}
+
+.pright1 {
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+
+
+.imagbot1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.imagbot1 img {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+.backg{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ded4e9;
+}
+
+.full1{
+    background-color: white;
+    width: 102%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footas {
+    margin-top: 50px;
+    width: 102%;
+    background-color: #7e57b4;
+}
+
+.footas img{
+    width: 550px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.mdf {
+    width: 102%;
+    background-color: #ded4e9;
+    text-align: center;
+}
+
+.mdf p {
+    margin: auto;
+    width: 60%;
+}
+
+@media (max-width: 467px){
+    body{
+        width: 100%;
+    }
+
+    .image-container img {
+        margin: auto;
+        margin-top: 50px;
+        padding-top: 0;
+        width: 60%;
+        height: 100px;
+} 
+
+    .content {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px; /* Adjust based on your header height */
+}
+
+/* Initial style for the title */
+    .title {
+        color: #333;
+        font-size: 20px;
+        opacity: 1;
+        transform: ;
+        transition: ;
+}
+
+    .title1 {
+        color: #333;
+        font-size: 20px;
+        opacity: 1;
+        transform: ;
+        transition: ;
+}
+
+    .para {
+        width: 80%;
+        margin: auto;
+        display: block;
+        justify-content: center;
+        align-items: center; /* Aligner les éléments en haut */
+        padding: 0px;
+        gap: 0px; /* Espacement entre les colonnes */
+}
+
+    .pleft, .pright {
+        width: 80%; /* Pour que les colonnes occupent l'espace équitablement */
+        text-align: justify;
+}
+
+    .pleft {
+        padding-left: 0px;
+}
+
+    .pright {
+        padding-right: 0px;
+        padding-left: 0px;
+}
+
+    .pcentre {
+        padding: 20px 50px;
+        margin: auto;
+        width: 80%;
+}
+
+    .pcentre p {
+        width: 80%;
+        margin: auto;
+}
+
+    .footas {
+        margin-top: 50px;
+        width: 102%;
+        background-color: #7e57b4;
+}
+
+    .footas img{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+}
+
+    .imagbot1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+}
+
+    .imagbot1 img {
+        height: 100px;
+        width: 100px;
+        margin: auto;
+}
+    
+
+    .full h1 {
+        margin: auto;
+        width: 88%;
+        font-size: 1.5em;
+        color: #333;
+}
+    
+
+    /* Ajustements pour les titres */
+    .title, .title1 {
+        font-size: 1.5em; /* Réduire la taille des titres */
+    }
+
+    /* Ajustements pour les paragraphes */
+    .para {
+        flex-direction: column; /* Empiler les colonnes */
+        padding: 10px; /* Réduire le padding */
+        gap: 10px; /* Réduire l'espacement entre les colonnes */
+    }
+
+    .pleft, .pright {
+        width: 100%; /* Occupation de toute la largeur */
+        padding: 0; /* Retirer le padding */
+    }
+
+    .pleft1, .pright1 {
+        width: 100%; /* Occupation de toute la largeur */
+        padding: 0; /* Retirer le padding */
+    }
+
+    .pleft1 {
+        padding-left: 0px;
+}
+
+    .pright1 {
+        padding-right: 0px;
+        padding-left: 0px;
+}
+
+    /* Ajustements pour les images en bas */
+    .imagbot img, .imagbot1 img {
+        height: auto; /* Maintenir les proportions des images */
+        width: 90%; /* Ajuster la largeur */
+    }
+
+    /* Ajustements pour les sections */
+    .pcentre, .full, .full1, .footas, .mdf {
+        padding: 0px; /* Réduire le padding */
+        width: 100%; /* Occupation de toute la largeur */
+        margin: auto; /* Retirer les marges */
+    }
+
+    .pcentre p {
+        padding: 10px;
+        width: 80%; /* Occupation de toute la largeur */
+        margin: auto; /* Retirer la marge */
+    }
+
+    .espace {
+        width: 80%; /* Réduire la largeur de l'espacement */
+    }
+}
+
+@media (max-height: 430px) {
+    body{
+        width: 100%;
+    }
+
+    /* Ajustements pour l'image-container */
+    .image-container img {
+        margin: auto;
+        margin-top: 10px;
+        padding-top: 0;
+        width: 60%;
+        height: 100px; /* Réduit la hauteur des images */
+    }
+
+    /* Ajustements pour le contenu */
+    .content {
+        padding-top: 80px; /* Augmenter le padding pour laisser de la place pour le header */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px; /* Ajuster selon la hauteur de ton header */
+    }
+
+    /* Ajustements pour les titres */
+    .title, .title1 {
+        font-size: 1.5em; /* Réduire la taille des titres */
+    }
+
+    /* Ajustements pour les paragraphes */
+    .para {
+        display: block;
+        padding: 10px 20px; /* Réduire le padding pour les petits écrans */
+        gap: 10px; /* Réduire l'espacement entre les colonnes */
+    }
+
+    .pleft, .pright {
+        width: 100%; /* Occuper toute la largeur disponible */
+        padding: 0; /* Retirer le padding pour économiser de l'espace */
+    }
+
+    .pleft1, .pright1 {
+        width: 100%; /* Occuper toute la largeur disponible */
+        padding: 0; /* Retirer le padding pour économiser de l'espace */
+    }
+
+    /* Ajustements pour les images en bas */
+    .imagbot1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+}
+
+    .imagbot1 img {
+        height: 200px;
+        width: 200px;
+        margin: auto;
+}
+
+    /* Ajustements pour les sections */
+    .pcentre, .full, .full1, .footas, .mdf {
+        padding: 0px; /* Réduire le padding pour s'adapter à la petite hauteur */
+        width: 100%; /* Occuper toute la largeur disponible */
+        margin: 0; /* Retirer les marges pour éviter les débordements */
+    }
+
+    .full h1{
+        font-size: 24px;
+    }
+
+    .pcentre p {
+        width: 80%; /* Occuper toute la largeur disponible */
+        margin: auto; /* Retirer la marge pour économiser de l'espace */
+    }
+
+    .espace {
+        height: 5px; /* Garder la hauteur d'origine pour les petites hauteurs d'écran */
+        width: 80%; /* Réduire la largeur de l'espacement */
+    }
+    h2{
+        text-align: center;
+    }
+}
